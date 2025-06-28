@@ -1,4 +1,12 @@
 User-agent: *
-Disallow:
+Disallow: /?s=*
+Disallow: /?q=*
+Disallow: /search/*
 
-Sitemap: https://bokepindojapan.pages.dev/sitemap-index.xml
+
+Allow: /video/*
+Allow: /category/*
+
+
+
+Sitemap: https://bokepindojapan.pages.dev/sitemap.xml
