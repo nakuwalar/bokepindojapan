@@ -19,5 +19,5 @@ export interface VideoData {
 
 export async function getAllVideos(): Promise<VideoData[]> {
   console.log(`[getAllVideos] Data video dimuat. Total video: ${videosData.length}`);
-  return rawAllVideos as VideoData[];
+  return videosData as VideoData[];
 }
